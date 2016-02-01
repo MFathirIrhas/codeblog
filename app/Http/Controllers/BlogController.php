@@ -43,7 +43,7 @@ class BlogController extends Controller {
 	{
 		$this->user_gestion = $user_gestion;
 		$this->blog_gestion = $blog_gestion;
-		$this->nbrPages = 2;
+		$this->nbrPages = 7;
 
 		$this->middleware('redac', ['except' => ['indexFront', 'show', 'tag', 'search']]);
 		$this->middleware('admin', ['only' => 'updateSeen']);
