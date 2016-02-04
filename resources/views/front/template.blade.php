@@ -61,6 +61,45 @@
 							{!! link_to('articles', trans('front/site.blog')) !!}
 						</li>
                         
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="divider"></li>
+                                <li class="dropdown"><center><font face="ubuntu mono" size="3" color="red">Programming</font></center></li>
+                                <li class="divider"></li>
+                                    <li><a href="blog/search" name="category">.NET</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">Apps Development</a></li>
+                                    <li><a href="#">Python</a></li>
+                                    <li><a href="#">C++</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    
+                                <li class="divider"></li>
+                                <li><center><font face="ubuntu mono" size="3" color="white">Life</font></center></li>
+                                <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    
+                                <li class="divider"></li>
+                                <li><center><font face="ubuntu mono" size="3" color="green">Religion</font></center></li>
+                                <li class="divider"></li>
+                                    <li><a href="#">Islam</a></li>
+                                    <li><a href="#">Christian</a></li>
+                                    <li><a href="#">Jews</a></li>
+                                    <li><a href="#">Other</a></li>
+                                    
+                                <li class="divider"></li>
+                                <li><center><font face="ubuntu mono" size="3" color="blue">News</font></center></li>
+                                <li class="divider"></li>
+                                    <li><a href="#">Indonesia</a></li>
+                                    <li><a href="#">Ranah Minang</a></li>
+                                    <li><a href="#">Middle East</a></li>
+                                    <li><a href="#">Europe</a></li>
+                                    <li><a href="#">America</a></li>
+                            </ul>
+                        </li>
+                        
                         @if(session('statut') == 'visitor' || session('statut') == 'user')
 							<li {!! classActivePath('contact/create') !!}>
 								{!! link_to('contact/create', trans('front/site.contact')) !!}

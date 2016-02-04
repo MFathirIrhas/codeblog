@@ -279,5 +279,19 @@ class BlogController extends Controller {
 		
 		return view('front.blog.index', compact('posts', 'links', 'info'));
 	}
+    
+    /**
+     * Category
+    */
+    public function searchCategory()
+    {
+        $category = $request->input('category');
+		$posts = $this->blog_gestion->search($this->nbrPages, $category);
+		$links = $posts->appends(compact('category'))->render();
+		$info = trans('front/blog.info-search') . '<strong>' . $category . '</strong>';
+		
+		return view('front.blog.index', compact('posts', 'links', 'info'));
+    }
+    
 
 }
