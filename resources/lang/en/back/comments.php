@@ -8,7 +8,7 @@ return [
 	'post' => 'Post',
 	'valid' => 'valid',
 	'seen' => 'seen',
-	'destroy' => 'Destroy',
-	'destroy-warning' => 'Really destroy this comment ?',
+	'destroy' => 'Delete',
+	'destroy-warning' => 'Really delete this comment ?',
 	'fail' => 'Update fail.'	
 ];

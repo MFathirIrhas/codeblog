@@ -11,7 +11,7 @@
 			{!! Form::control('email', 0, 'email', $errors, trans('back/users.email')) !!}
 			{!! Form::selection('role', $select, $user->role_id, trans('back/users.role')) !!}
 			{!! Form::checkHorizontal('confirmed', trans('back/users.confirmed'), $user->confirmed) !!}
-			{!! Form::submit(trans('front/form.send')) !!}
+			{!! Form::submit(trans('front/form.editUser')) !!}
 		{!! Form::close() !!}
 	</div>
 

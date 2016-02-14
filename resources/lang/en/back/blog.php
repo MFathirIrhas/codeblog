@@ -24,5 +24,6 @@ return [
 	'fail' => 'Update fail.',
 	'stored' => 'Post stored.',
 	'updated' => 'Post updated.',
-	'destroyed' => 'Post destroyed'
+	'destroyed' => 'Post destroyed',
+    'category' => 'category'
 ];

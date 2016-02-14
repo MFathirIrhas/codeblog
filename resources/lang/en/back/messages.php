@@ -7,7 +7,7 @@ return [
 	'email' => 'Email',		
 	'date' => 'Date',
 	'seen' => 'Seen',
-	'destroy' => 'Destroy',
-	'destroy-warning' => 'Really destroy this message ?',
+	'destroy' => 'Delete',
+	'destroy-warning' => 'Really delete this message ?',
 	'fail' => 'Update fail.'	
 ];
