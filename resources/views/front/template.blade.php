@@ -15,7 +15,7 @@
 		@yield('head')
 
 		{!! HTML::style('css/bootstrap.min.css') !!}
-
+		{!! HTML::style('css/steambtn.css') !!}
 		<!--[if (lt IE 9) & (!IEMobile)]>
 			{!! HTML::script('js/vendor/respond.min.js') !!}
 		<![endif]-->
@@ -165,11 +165,27 @@
 		@yield('main')
 	</main>
 
+	</br>
+	<div class="jumbotron">
 	<footer role="contentinfo">
 		 @yield('footer')
-		<p class="text-center"><small>Copyright &copy; CodeBlog</small></p>
+		<p class="text-center">&#x534d| <small>Copyright &copy; <b>CodeBlog</b> 2015 </small>|&#x534d </p>
+		<p class="text-center">
+			<iframe src="https://ghbtns.com/github-btn.html?user=MFathirIrhas&type=follow&count=false" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>|
+			<a href="https://twitter.com/FathirIrhas1" class="twitter-follow-button" data-show-count="false" data-size="medium">Follow @bgardner</a> |
+			<a target="_blank" class="steam-group-button" target="_blank" href="http://steamcommunity.com/id/fathirirhas/"> 
+				<i class="steam-group-icon"></i>
+				<span class="steam-group-label">Follow me on Steam</span>
+			</a> 
+		</p>	
 	</footer>
-		
+	</div>
+
+	<!--javascript for twitter follow button-->	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<!--END for javascript for twitter follow button-->
+
+
 	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 	{!! HTML::script('js/plugins.js') !!}
