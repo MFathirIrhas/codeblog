@@ -5,7 +5,7 @@ return [
 	'sub-title' => 'An awesome PHP framework',
 	'home' => 'Home',
 	'contact' => 'Contact',
-	'blog' => 'Blog',
+	'blog' => 'All Posts',
 	'register' => 'Register',
 	'forget-password' => 'Forgotten password',
 	'connection' => 'Connection',

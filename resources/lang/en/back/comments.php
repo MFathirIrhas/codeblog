@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'dashboard' => 'Comments gestion',
+	'dashboard' => 'Comments configuration',
 	'comments' => 'Comments',
 	'author' => 'Author',		
 	'date' => 'Date',

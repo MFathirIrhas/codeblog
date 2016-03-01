@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'dashboard' => 'Posts gestion',
+	'dashboard' => 'Create a Post',
 	'creation' => 'Creation',
 	'published' => 'Published',
 	'title' => 'Title',

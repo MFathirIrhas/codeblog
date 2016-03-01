@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'dashboard' => 'Messages gestion',
+	'dashboard' => 'Messages configuration',
 	'messages' => 'Messages',
 	'name' => 'Name',
 	'email' => 'Email',		

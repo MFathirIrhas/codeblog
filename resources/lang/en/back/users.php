@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'dashboard' => 'Users gestion',
+	'dashboard' => 'Users configuration',
 	'users' => 'users',
 	'add' => 'Add a user',
 	'all' => 'All',

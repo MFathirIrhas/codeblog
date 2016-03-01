@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'administration' => 'Administration',
+	'administration' => 'Administration - CodeBlog',
 	'redaction' => 'Redaction',
 	'home' => 'Back on site',
 	'logout' => 'Logout',

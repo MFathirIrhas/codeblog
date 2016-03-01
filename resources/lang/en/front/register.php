@@ -4,7 +4,7 @@ return [
 	'title' => 'Inscription',
 	'infos' => 'To register please fill this form :',
 	'email' => 'Your email',
-	'pseudo' => 'Your Nickname',
+	'pseudo' => 'Your Nickname (*no space allowed)',
 	'password' => 'Your password',
 	'confirm-password' => 'Confirm your password',
 	'warning' => 'Attention',
