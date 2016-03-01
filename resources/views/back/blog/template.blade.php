@@ -33,7 +33,9 @@
 		{!! Form::control('textarea', 0, 'summary', $errors, trans('back/blog.summary')) !!}
 		{!! Form::control('textarea', 0, 'content', $errors, trans('back/blog.content')) !!}
 		{!! Form::control('text', 0, 'tags', $errors, trans('back/blog.tags'), isset($tags)? implode(',', $tags) : '') !!}
-
+		<p><i>*main tags: programming,general,religion,tutorial,news,gaming, tbd</i></p>
+		<p><i>*every tag must be separated with "-" if needed</i></p>
+		<p><i>*use always lowercase for everytags</i></p>
 		{!! Form::submit(trans('front/form.createPost')) !!}
 
 		{!! Form::close() !!}
