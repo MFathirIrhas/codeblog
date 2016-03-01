@@ -20,13 +20,15 @@
 						{!! Form::control('password', 6, 'password_confirmation', $errors, trans('front/register.confirm-password')) !!}
 					</div>
 					<!--{!! Form::text('address', '', ['class' => 'hpet']) !!}	-->
-
+					<p><i><font color="red">*After you press "enter" or "send" button below, your record had been saved to our database, but you will not be redirected to successful state as it should be because email service for registration doesn't work for now. You can contact me to Confirm your registration by informing me in contact menu telling yourself as "needed to be confirmed". I will send email once your registration is confirmed.</font></i></p>
+					<p><i><font color="red">*I am really sorry for this inconvenience, we will try to fix this email service for registration as soon as we can. Thank you.</font></i></p>
 					<div class="row">	
 						{!! Form::submit(trans('front/form.send'), ['col-lg-12']) !!}
 					</div>
 					
 				{!! Form::close() !!}
 
+				<p align="right"><a href="login" class="btn btn-primary">Login &raquo</a></p>
 			</div>
 		</div>
 	</div>
