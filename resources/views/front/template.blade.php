@@ -61,7 +61,7 @@
 							{!! link_to('articles', trans('front/site.blog')) !!}
 						</li>
                         
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="divider"></li>
@@ -98,7 +98,7 @@
                                     <li><a href="#">Europe</a></li>
                                     <li><a href="#">America</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         
                         @if(session('statut') == 'visitor' || session('statut') == 'user')
 							<li {!! classActivePath('contact/create') !!}>
